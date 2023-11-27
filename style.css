@@ -63,7 +63,7 @@ article {
     display: flex;
     flex-wrap: wrap; /* Zorgt ervoor dat niet alles in een lijn komt te staan*/
 }
-div{
+div {
     display: flex
 }
 
