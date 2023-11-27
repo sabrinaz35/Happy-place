@@ -1,0 +1,96 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+}
+
+header img {/* Hiermee kan je speciefiek een afbeelding aanpassen*/
+    width: 6em;
+    height: 6em;
+}
+
+nav {
+    border: solid #f5e8d7;
+    background-color:  #f5e8d7;
+    padding: 1em;
+    display: flex;
+}
+
+nav ul {
+    
+    display: flex; /* Zorgt dat alles naast elkaar staat*/
+    justify-content: space-around; /* Plek van content in de breedte*/
+    font-size: 120%;
+    align-content: flex-end; /*Plek van content in de verticale ding*/
+
+}
+
+nav li{
+    border: solid rgb(147, 199, 216);
+    background-color: rgb(147, 199, 216) ;
+    border-radius: 7px;
+    align-content: center;
+    margin-left: 2em;
+    margin-top: 1em;
+    padding-top: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+ol{
+    text-align: center;
+
+}
+
+img {
+    width: 25%; height: 50%;
+    display: inline;
+    border: solid #ddb8a6;
+    border-radius: 7px;
+}
+
+body {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #ffffff;
+
+}
+article {
+    border: 3px solid #f5e8d7;
+    border-radius: 7px;
+    background: #f5e8d7;
+    padding: 30px;
+    margin: 50px;
+    display: flex;
+    flex-wrap: wrap; /* Zorgt ervoor dat niet alles in een lijn komt te staan*/
+}
+div{
+    display: flex
+}
+
+h1 {
+    text-align: center;
+    font-family: 'papyrus', 'brush script mp', sans-serif ;
+    font-size: 50px;
+    margin: 50px;
+    text-decoration: underline;
+    justify-content: center;
+}
+h2 {
+    border: solid rgb(147, 199, 216) ; 
+    background: rgb(147, 199, 216) ;
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+    padding: 5px;
+    margin: 50px;
+}
+p {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 10px;
+    margin: 40px;
+}
+
+
+
+
+
