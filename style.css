@@ -37,14 +37,8 @@ nav li{
     padding-right: 1em;
 }
 
-ol{
-    text-align: center;
-
-}
-
 img {
-    width: 25%; height: 50%;
-    display: inline;
+    width: 30%; height: 40%;
     border: solid #ddb8a6;
     border-radius: 7px;
 }
@@ -64,15 +58,29 @@ article {
     flex-wrap: wrap; /* Zorgt ervoor dat niet alles in een lijn komt te staan*/
 }
 
-p:first-child {
-    border: solid #ddb8a6;
+ol{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.welkom{
+    border: 4px dotted #ddb8a6;
 }
 
 .wiebenik { /* foto van mij en tekst wie ben ik naast elkaar*/
     display: flex;
     align-items: center;
+
     
 }
+
+.steden {
+    display: flex;
+    align-items: center;
+}
+
 
 h1 {
     text-align: center;
@@ -96,7 +104,7 @@ h2 {
 p {
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     padding: 10px;
-    margin: 40px;
+    margin: 30px;
 }
 
 
