@@ -63,8 +63,15 @@ article {
     display: flex;
     flex-wrap: wrap; /* Zorgt ervoor dat niet alles in een lijn komt te staan*/
 }
-div {
-    display: flex
+
+p:first-child {
+    border: solid #ddb8a6;
+}
+
+.wiebenik { /* foto van mij en tekst wie ben ik naast elkaar*/
+    display: flex;
+    align-items: center;
+    
 }
 
 h1 {
@@ -75,6 +82,7 @@ h1 {
     text-decoration: underline;
     justify-content: center;
 }
+
 h2 {
     border: solid rgb(147, 199, 216) ; 
     background: rgb(147, 199, 216) ;
@@ -84,6 +92,7 @@ h2 {
     padding: 5px;
     margin: 50px;
 }
+
 p {
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     padding: 10px;
