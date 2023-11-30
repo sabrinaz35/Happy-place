@@ -1,7 +1,8 @@
 * {
     padding: 0;
     margin: 0;
-    box-sizing:border-box;
+    box-sizing: border-box;
+    text-decoration: none;
 }
 
 header img { /*logo  happy places*/
@@ -17,13 +18,17 @@ nav {
     display: flex;
 }
 
+nav li:hover{ /* ZOrgt ervoor dat het lijkt alsof het klikbaar is*/
+    background-color: rgb(102, 145, 159);
+}
+
 nav ul {
     
     display: flex; /* Zorgt dat alles naast elkaar staat*/
     justify-content: space-around; /* Plek van content in de breedte*/
     font-size: 120%;
     align-content: flex-end; /*Plek van content in de verticale ding*/
-    
+    list-style-type: none;
 }
 
 nav li{
@@ -39,7 +44,8 @@ nav li{
 }
 
 img {
-    width: 30%; height: 40%;
+    width: 30vw; 
+    height: 40vh;
     border: solid #ddb8a6;
     border-radius: 7px;
 }
@@ -47,14 +53,14 @@ img {
 body {
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #ffffff;
-
 }
+
 article {
     border: 3px solid #f5e8d7;
     border-radius: 7px;
     background: #f5e8d7;
-    padding: 30px;
-    margin: 30px;
+    padding: 2em;
+    margin: 2em;
     display: flex;
     flex-wrap: wrap; /* Zorgt ervoor dat niet alles in een lijn komt te staan*/
 }
@@ -64,6 +70,14 @@ ol{
     justify-content: space-between;
     margin-left: 20px;
     margin-right: 20px;
+}
+
+section{
+    display: flex;
+
+}
+.duitsland{
+    flex-wrap: wrap;
 }
 
 .welkom{
@@ -80,15 +94,6 @@ ol{
     height: 40vh;
 }
 
-.steden {
-    display: flex;
-    align-items: center;
-}
-
-.steden :first-child{
-    width: 30vw;
-    height: 40vh;
-}
 
 h1 {
     text-align: center;
