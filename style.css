@@ -4,7 +4,8 @@
     box-sizing:border-box;
 }
 
-header img {/* Hiermee kan je speciefiek een afbeelding aanpassen*/
+header img { /*logo  happy places*/
+    /* Hiermee kan je speciefiek een afbeelding aanpassen*/
     width: 6em;
     height: 6em;
 }
@@ -22,19 +23,19 @@ nav ul {
     justify-content: space-around; /* Plek van content in de breedte*/
     font-size: 120%;
     align-content: flex-end; /*Plek van content in de verticale ding*/
-
+    
 }
 
 nav li{
     border: solid rgb(147, 199, 216);
     background-color: rgb(147, 199, 216) ;
-    border-radius: 7px;
+    border-radius: 15px;
     align-content: center;
-    margin-left: 2em;
+    margin-left: 5vw;
     margin-top: 1em;
     padding-top: 1em;
-    padding-left: 1em;
-    padding-right: 1em;
+    padding-left: 4vw;
+    padding-right: 4vw;
 }
 
 img {
@@ -53,7 +54,7 @@ article {
     border-radius: 7px;
     background: #f5e8d7;
     padding: 30px;
-    margin: 50px;
+    margin: 30px;
     display: flex;
     flex-wrap: wrap; /* Zorgt ervoor dat niet alles in een lijn komt te staan*/
 }
@@ -69,11 +70,14 @@ ol{
     border: 4px dotted #ddb8a6;
 }
 
-.wiebenik { /* foto van mij en tekst wie ben ik naast elkaar*/
+.wiebenik { /* foto van mij en tekst wie ben ik naast stuk tekst*/
     display: flex;
     align-items: center;
 
-    
+}
+.wiebenik img {
+    width: 30vw;
+    height: 40vh;
 }
 
 .steden {
@@ -81,6 +85,10 @@ ol{
     align-items: center;
 }
 
+.steden :first-child{
+    width: 30vw;
+    height: 40vh;
+}
 
 h1 {
     text-align: center;
