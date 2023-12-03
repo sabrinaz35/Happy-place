@@ -18,10 +18,6 @@ nav {
     display: flex;
 }
 
-nav li:hover{ /* ZOrgt ervoor dat het lijkt alsof het klikbaar is*/
-    background-color: rgb(102, 145, 159);
-}
-
 nav ul {
     
     display: flex; /* Zorgt dat alles naast elkaar staat*/
@@ -41,6 +37,11 @@ nav li{
     padding-top: 1em;
     padding-left: 4vw;
     padding-right: 4vw;
+    transition: background-color 350ms ease; /*Zorgt ervoor dat er een goeie overgang is*/ 
+}
+
+nav li:hover{ /* ZOrgt ervoor dat het lijkt alsof het klikbaar is*/
+    background-color: rgb(102, 145, 159);
 }
 
 img {
@@ -54,46 +55,6 @@ body {
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #ffffff;
 }
-
-article {
-    border: 3px solid #f5e8d7;
-    border-radius: 7px;
-    background: #f5e8d7;
-    padding: 2em;
-    margin: 2em;
-    display: flex;
-    flex-wrap: wrap; /* Zorgt ervoor dat niet alles in een lijn komt te staan*/
-}
-
-ol{
-    display: flex;
-    justify-content: space-between;
-    margin-left: 20px;
-    margin-right: 20px;
-}
-
-section{
-    display: flex;
-
-}
-.duitsland{
-    flex-wrap: wrap;
-}
-
-.welkom{
-    border: 4px dotted #ddb8a6;
-}
-
-.wiebenik { /* foto van mij en tekst wie ben ik naast stuk tekst*/
-    display: flex;
-    align-items: center;
-
-}
-.wiebenik img {
-    width: 30vw;
-    height: 40vh;
-}
-
 
 h1 {
     text-align: center;
@@ -119,6 +80,78 @@ p {
     padding: 10px;
     margin: 30px;
 }
+
+article {
+    border: 3px solid #f5e8d7;
+    border-radius: 7px;
+    background: #f5e8d7;
+    padding: 2em;
+    margin: 2em;
+    display: flex;
+    flex-wrap: wrap; /* Zorgt ervoor dat niet alles in een lijn komt te staan*/
+}
+
+ol{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+/*index css*/
+
+.welkom{
+    border: 4px dotted #ddb8a6;
+}
+.wiebenik { /* foto van mij en tekst wie ben ik naast stuk tekst*/
+    display: flex;
+    align-items: center;
+
+}
+
+.wiebenik img {
+    width: 30vw;
+    height: 40vh;
+}
+
+/*Duitsland css*/
+div.duitsland{
+    display: flex;
+}
+
+div.duitsland p{
+    max-width: 16vw;
+}
+
+div.duitsland img{
+    max-width:16vw;
+}
+
+h3{
+    margin: 1em;
+}
+
+/*Tenerife css*/
+
+.tenerife{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: left;
+}
+
+.tenerife p{
+    max-width: 16vw;
+}
+
+.tenerife img{
+    max-width:16vw;
+    margin-top: 3em;
+}
+
+
+
+
+
 
 
 
