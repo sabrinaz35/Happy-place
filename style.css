@@ -45,8 +45,8 @@ nav li:hover{ /* ZOrgt ervoor dat het lijkt alsof het klikbaar is*/
 }
 
 img {
-    width: 30vw; 
-    height: 40vh;
+    max-width: 30vw; 
+    max-height: 40vh;
     border: solid #ddb8a6;
     border-radius: 7px;
 }
@@ -130,6 +130,10 @@ div.duitsland img{
 h3{
     margin: 1em;
 }
+.fotoduitsland{
+    max-width: 30vw;
+    max-height: 40vh;
+}
 
 /*Tenerife css*/
 
@@ -148,6 +152,20 @@ h3{
     margin-top: 3em;
 }
 
+/*tsjechie css*/
+
+section{
+    display: flex;
+}
+.tjechie {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.fotopraag{
+    width: 30vw;
+    height: 40vh;
+}
 
 
 
