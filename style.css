@@ -18,29 +18,29 @@ nav {
     display: flex;
 }
 
-nav ul {
-    
+nav ul { 
     display: flex; /* Zorgt dat alles naast elkaar staat*/
     justify-content: space-around; /* Plek van content in de breedte*/
     font-size: 120%;
     align-content: flex-end; /*Plek van content in de verticale ding*/
     list-style-type: none;
+    margin-top: 3em;
 }
 
-nav li{
+nav a{
     border: solid rgb(147, 199, 216);
-    background-color: rgb(147, 199, 216) ;
+    background-color: rgb(147, 199, 216);
     border-radius: 15px;
     align-content: center;
     margin-left: 5vw;
     margin-top: 1em;
-    padding-top: 1em;
+    padding: 1em;
     padding-left: 4vw;
     padding-right: 4vw;
     transition: background-color 350ms ease; /*Zorgt ervoor dat er een goeie overgang is*/ 
 }
 
-nav li:hover{ /* ZOrgt ervoor dat het lijkt alsof het klikbaar is*/
+nav a:hover{ /* ZOrgt ervoor dat het lijkt alsof het klikbaar is*/
     background-color: rgb(102, 145, 159);
 }
 
@@ -102,7 +102,10 @@ ol{
 
 .welkom{
     border: 4px dotted #ddb8a6;
+    margin-left: 10em;
+    margin-right: 10em;
 }
+
 .wiebenik { /* foto van mij en tekst wie ben ik naast stuk tekst*/
     display: flex;
     align-items: center;
@@ -112,57 +115,69 @@ ol{
 .wiebenik img {
     width: 30vw;
     height: 40vh;
+    margin-left: 10em;
+}
+
+.wiebenik p {
+    margin-left: 10em;
+    margin-right: 20em;
+}
+
+.favoriete {
+    display: block;
+    padding: 2em;
+    margin-left: 10em;
+    margin-right: 10em;
 }
 
 /*Duitsland css*/
-div.duitsland{
+div.duitsland {
     display: flex;
 }
 
-div.duitsland p{
+div.duitsland p {
     max-width: 16vw;
 }
 
-div.duitsland img{
+div.duitsland img {
     max-width:16vw;
 }
 
+
 h3{
     margin: 1em;
+    flex-wrap: wrap;
 }
-.fotoduitsland{
+.fotoduitsland {
     max-width: 30vw;
     max-height: 40vh;
 }
 
 /*Tenerife css*/
 
-.tenerife{
+.tenerife {
     display: flex;
     flex-wrap: wrap;
     text-align: left;
 }
 
-.tenerife p{
+.tenerife p {
     max-width: 16vw;
 }
 
-.tenerife img{
+.tenerife img {
     max-width:16vw;
     margin-top: 3em;
 }
 
 /*tsjechie css*/
 
-section{
+section {
     display: flex;
-}
-.tjechie {
-    display: flex;
-    flex-wrap: wrap;
+    align-items: center;
 }
 
-.fotopraag{
+.fotopraag {
     width: 30vw;
     height: 40vh;
 }
