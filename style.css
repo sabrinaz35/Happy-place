@@ -124,7 +124,7 @@ ol{
 ol a {
     border: solid rgb(147, 199, 216);
     background-color:rgb(147, 199, 216);
-    padding: 20px;
+    padding: 3em;
     border-radius: 50%;
     transition: background-color 350ms ease; 
     display: flex;
