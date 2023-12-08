@@ -33,9 +33,10 @@ nav ul {
 }
 
 nav a {
-    border: solid rgb(147, 199, 216);
-    background-color: rgb(147, 199, 216);
+    border: solid #f26b6b;
+    background-color: #f26b6b;
     border-radius: 15px;
+    box-shadow: 2px 2px 2px #666;
     align-content: center;
     margin-left: 5vw;
     margin-top: 1em;
@@ -113,6 +114,11 @@ article {
     flex-wrap: wrap; /* Zorgt ervoor dat niet alles in een lijn komt te staan*/
 }
 
+.article1 {
+border-radius: 45%;
+justify-content: center;
+}
+
 ol{
     display: flex;
     justify-content: space-between;
@@ -136,22 +142,44 @@ ol a:hover{ /* ZOrgt ervoor dat het lijkt alsof het klikbaar is*/
     transition: all 2s ease;
 }
 
+@keyframes slide {
+    0% {
+        left: 0%;
+
+    }
+    50% {
+        left: 130%;
+    }
+    100%{
+        left: 0%;
+        transform: rotateY(180deg);
+        animation-duration: 1s;
+    }
+
+
+}
 .vliegtuig {
+    animation-name: slide;
+    animation-duration: 5s;
+    transition-duration: 0.5s;
+    animation-iteration-count: infinite; 
+}
+
+.vliegtuig {
+    position: relative;
     border: none;
     width: 20vw;
     height: 15vh;
-}
-.vliegtuig:hover {
-    transform: translate(100em);
-    transition: all 2s ease;
 }
 
 /*index css*/
 
 .welkom{
     border: 4px dotted #ddb8a6;
+    border-radius: 20em;
     margin-left: 10em;
     margin-right: 10em;
+    width: 50%;
 }
 
 .wiebenik { /* foto van mij en tekst wie ben ik naast stuk tekst*/
