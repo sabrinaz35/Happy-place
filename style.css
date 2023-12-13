@@ -84,8 +84,8 @@ h1 {
 }
 
 h2 {
-    border: solid rgb(147, 199, 216) ; 
-    background: rgb(147, 199, 216) ;
+    border: solid #f26b6b ; 
+    background: #f26b6b ;
     border-radius: 10px;
     width: 300px;
     text-align: center;
@@ -124,8 +124,8 @@ ol{
 }
 
 ol a {
-    border: solid rgb(147, 199, 216);
-    background-color:rgb(147, 199, 216);
+    border: solid #f26b6b;
+    background-color:#f26b6b;
     padding: 3em;
     border-radius: 50%;
     transition: background-color 350ms ease; 
@@ -186,6 +186,11 @@ ol a:hover{ /* ZOrgt ervoor dat het lijkt alsof het klikbaar is*/
     border: none;
 }
 
+.wiebenik img:hover{
+    transform: rotate(360deg);
+    transition: all 2s ease;
+}
+
 .wiebenik p {
     width: 50%;
 }
@@ -210,11 +215,12 @@ article h3 {
 }
 
 div.duitsland p {
-    max-width: 13vw;
+    max-width: 12.5vw;
 }
 
 div.duitsland img {
-    max-width: 13vw;
+    max-width: 13em;
+    max-height: 20em;
 }
 
 .fotoduitsland img:hover{
