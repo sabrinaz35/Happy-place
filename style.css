@@ -103,7 +103,7 @@ article {
     border-radius: 7px;
     background: #f5e8d7;
     padding: 2em;
-    margin: 1em;
+    margin: 1.5em;
     display: flex;
     flex-wrap: wrap; /* Zorgt ervoor dat niet alles in een lijn komt te staan*/
 }
@@ -112,7 +112,6 @@ article {
     border-radius: 45%;
     justify-content: center;
 }
-
 
 ol{
     display: flex;
@@ -166,6 +165,30 @@ ol a:hover{ /* ZOrgt ervoor dat het lijkt alsof het klikbaar is*/
     height: 15vh;
 }
 
+@keyframes bounce-in-right {
+    0% {
+      opacity: 0;
+      transform: translateX(2000px);
+    }
+    60% {
+      opacity: 1;
+      transform: translateX(-30px);
+    }
+    80% { 
+        transform: translateX(10px); 
+    }
+    100% { 
+        transform: translateX(0);
+    }
+  }
+
+.koffer {
+    animation: bounce-in-right 4s ease infinite;
+    max-width: 30vw;
+    max-height: 35vh;
+    border: none;
+}
+
 /*index css*/
 
 .welkom{
@@ -202,7 +225,7 @@ ol a:hover{ /* ZOrgt ervoor dat het lijkt alsof het klikbaar is*/
 }
 
 /*Duitsland css*/
-div.duitsland {
+.duitsland div{
     display: flex;
 }
 
@@ -213,13 +236,17 @@ article h3 {
  padding: 2em;
 }
 
-div.duitsland p {
+.duitsland div p {
     max-width: 12.5vw;
 }
 
-div.duitsland img {
+.duitsland div img {
     max-width: 13em;
     max-height: 20em;
+}
+
+.fotoduitsland{
+    justify-content: center;
 }
 
 .fotoduitsland img:hover{
