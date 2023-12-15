@@ -94,7 +94,7 @@ p {
 
 article {
     border: 3px solid #f5e8d7;
-    border-radius: 7px;
+    border-radius: 15px;
     background: #f5e8d7;
     padding: 2em;
     margin: 1.5em;
@@ -283,11 +283,9 @@ max-width: 50vw;
 
 .fotopraag {
     display: flex;
-    width: 30vw;
-    height: 40vh;
 }
 
-.fotopraag:hover {
+.fotopraag img:hover {
     transform:scale(1.1);
 }
 
@@ -303,3 +301,5 @@ max-width: 50vw;
 .tsjechie p {
     max-width: 23vw;
 }
+
+
