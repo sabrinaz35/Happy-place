@@ -212,6 +212,10 @@ ol a:hover { /* ZOrgt ervoor dat het lijkt alsof het klikbaar is*/
     text-align: center;
 }
 
+.favoriete h2 {
+    margin-left: 20vw;
+}
+
 /*Duitsland css*/
 .duitsland, .cochem {
     display: flex; 
