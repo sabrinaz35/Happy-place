@@ -256,7 +256,6 @@ ol a:hover { /* ZOrgt ervoor dat het lijkt alsof het klikbaar is*/
 
 .todo {
     display: flex;
-    justify-content: inline;
 }
 
 .todo div {
